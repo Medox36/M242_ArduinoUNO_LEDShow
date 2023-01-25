@@ -1,7 +1,7 @@
 # M242_ArduinoUNO_LEDShow
 
 This repository holds the code to a project created at school.<br><br>
-The code makes multpile LEDs blink at driffrent speeds. The speeds can be changed though a menu on an 16x2 lcd display sitting on a lcd key shield.<br>
+The code makes multpile LEDs blink at driffrent speeds and cicles through (almoast) all colours on an RGB LED. The speeds can be changed though a menu on an 16x2 lcd display sitting on a lcd key shield.<br>
 In addition, the master speed or clock speed can be changed with a potentiometer.<br>
 Furthermore, the LED only blink when it is dark. 'Dark' is defined through a voltage divider in combinationwith a photoresistor.<br>
 
