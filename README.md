@@ -58,6 +58,6 @@ Changes can be done wit hthe following exceptions:
 ## Included Libraries
 [LiquidCristal](https://github.com/arduino-libraries/LiquidCrystal)
 
-## Circuit Diagramm
+## Circuit Diagram
 
-May be added in the near future.
+<img src="https://github.com/Medox36/M242_ArduinoUNO_LEDShow/blob/main/circuit_diagram.png">
