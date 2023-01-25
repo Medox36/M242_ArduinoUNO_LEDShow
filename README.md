@@ -59,5 +59,6 @@ Changes can be done wit hthe following exceptions:
 [LiquidCristal](https://github.com/arduino-libraries/LiquidCrystal)
 
 ## Circuit Diagram
+> Please note that on this circut diagram the lcd display and the lcd keypad shield are missing.
 
 <img src="https://github.com/Medox36/M242_ArduinoUNO_LEDShow/blob/main/circuit_diagram.png">
