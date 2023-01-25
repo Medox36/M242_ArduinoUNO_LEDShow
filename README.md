@@ -27,7 +27,7 @@ Furthermore, the LED only blink when it is dark. 'Dark' is defined through a vol
 
 ## Connection
 Plug the LCD Keypad Shield onto the Arduino UNO.
-All further wireconnections can be determined by looking at the Pin Allocations futher down or by looking at the constant variables Pin Allocations in the code.
+All further wire connections can be determined by looking at the Pin Allocations futher down or by looking at the constant variables Pin Allocations in the code.
 
 ## Pin Allocations
 > A0 - reseved for Buttons on LCD Keypad Shield<br>
