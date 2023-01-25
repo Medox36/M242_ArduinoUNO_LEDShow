@@ -6,6 +6,7 @@ In addition, the master speed or clock speed can be changed with a potentiometer
 Furthermore, the LED only blink when it is dark. 'Dark' is defined through a voltage divider in combinationwith a photoresistor.<br>
 
 ## Used Parts
+> Required:
 * ArduinoUNO
 * LCD 16x2 
 * LCD Keypad Shield
@@ -18,10 +19,15 @@ Furthermore, the LED only blink when it is dark. 'Dark' is defined through a vol
   * 1x 10kΩ Resistor
   * 1x 1kΩ Resistor (another one will do as well, is for the button)
   * 3x 40Ω Resistors
+* Wires
   
-Optional:
-> * Juper cables
-> * Breadboars
+> Optional:
+* Jumper cables
+* Breadboars
+
+## Connection
+Plug the LCD Keypad Shield onto the Arduino UNO.
+All further wireconnections can be determined by looking at the Pin Allocations futher down or by looking at the constant variables Pin Allocations in the code.
 
 ## Pin Allocations
 > A0 - reseved for Buttons on LCD Keypad Shield<br>
@@ -41,6 +47,13 @@ Optional:
 > D9  - LCD E<br>
 > D10 - RGB LED green<br>
 > D11 - RGB LED blue<br>
+
+Pin allocations can be changed by setting the constant variables in the code respecively
+Changes can be done wit hthe following exceptions:
+* ``led_rgb_r``, ``led_rgb_g`` and ``led_rgb_b`` must be connectet to a PWM pin (marked with ``~`` on the ArduinoUNO board)
+* ``settingsButton`` must be connected to a interrupt pin (on the ArduinoUNO pins 2 and 3)
+* Pin AO (variable ``keySheld``) is reserved for the keys on the lcd key shield
+* All variables starting with ``lcd_`` have to stay the same and must not be changed. The reason beeing due to the key shield having fixed pin thoughput from the lcd pins. Which means that the lcd pins are always connected to the same lcd keypad shield pins.
 
 ## Included Libraries
 [LiquidCristal](https://github.com/arduino-libraries/LiquidCrystal)
