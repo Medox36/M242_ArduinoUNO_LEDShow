@@ -11,7 +11,7 @@
 
    Description:
    Makes multpile LED blink at driffrent speeds. The speeds can be changed though a menu on an 16x2 lcd display on a lcd key shield.
-   In addition, the master speed or clock speed chan be changed with a potentiometer.
+   In addition, the master speed or clock speed can be changed with a potentiometer.
    Furthermore, the LED only blink when it is dark. 'Dark' is defined through a voltage divider in combinationwith a photoresistor.
 
    Connection:
@@ -19,7 +19,7 @@
    All wireings can be determined by looking at the constant variables "Pin Allocations".
    They can be changed, with exceptions to:
     - led_rgb_r & led_rgb_g & led_rgb_b -> must be connectet to PWM pins (marked with "~" on the ArduinoUNO board)
-    - settingsButton -> must be connected to a interrupt pint (on the ArduinoUNO pins 2 and 3)
+    - settingsButton -> must be connected to a interrupt pin (on the ArduinoUNO pins 2 and 3)
     - Pin A0 is reserved for the keys on the lcd key shield
     - all variables starting with "lcd_" -> due to the key shield having fixed pins the lcd pins are always connected to the same pins.
    
