@@ -26,7 +26,6 @@
 ********************************************************/
 
 #include <LiquidCrystal.h>
-#include <Encoder.h>
 
 // Pin Allocations
 //
