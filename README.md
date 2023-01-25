@@ -16,7 +16,7 @@ Furthermore, the LED only blink when it is dark. 'Dark' is defined through a vol
 * Button (normally open)
 * Resistors
   * 1x 10kΩ Resistor
-  * 1x 1kΩ Resistor (anotherone will do as well, is for the button)
+  * 1x 1kΩ Resistor (another one will do as well, is for the button)
   * 3x 40Ω Resistors
   
 Optional:
